@@ -15,4 +15,9 @@
 
 <h1>Widgets utilizados</h1>
 
-<a href="https://github.com/JuS0l/App_IlhaBela/wiki/Descrição-dos-Widgets-Utilizados">Link para imagens do protótipo</a>
+<a href="https://github.com/JuS0l/App_IlhaBela/wiki/Descrição-dos-Widgets-Utilizados">Link para os widgets  utilizados no protótipo</a>
+
+
+<h1>Referências</h1>
+
+<a href="https://github.com/JuS0l/App_IlhaBela/wiki/Refer%C3%AAncias">Link para as referências do protótipo</a>
