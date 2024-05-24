@@ -12,3 +12,7 @@
 <h1>Protótipo</h1>
 
 <a href="https://github.com/JuS0l/App_IlhaBela/wiki/Protótipo">Link para imagens do protótipo</a>
+
+<h1>Widgets utilizados</h1>
+
+<a href="https://github.com/JuS0l/App_IlhaBela/wiki/Descrição-dos-Widgets-Utilizados">Link para imagens do protótipo</a>
