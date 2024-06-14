@@ -20,3 +20,6 @@ flutter:
   assets: 
     - icons/casa.png
     - img/praia_castelhanos.jpg
+    - icons/mapa.png
+    - icons/calendario.png
+    - icons/avaliacao.png

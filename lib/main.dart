@@ -17,19 +17,34 @@ class MainApp extends StatelessWidget {
             
             children: <Widget>[
                 IconButton(
-                icon: const Icon(Icons.calendar_month),
-                onPressed: () {
-                }
+                iconSize: 40,
+                icon: Image.asset('icons/casa.png'),
+                onPressed: () {}
               )
               ]
           )
         ),
         body: Center(
           child: Column(
-            children: <Widget> [
-              const Text('Praia do Pereque'),
-              Image.asset('img/praia_castelhanos.jpg',width: 300,height: 300,),
-              const Text('Como chegar: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan semper augue, in bibendum libero lobortis nec. In ex lacus, consequat in purus id, euismod eleifend orci. Vestibulum in malesuada enim. Aliquam tincidunt ullamcorper accumsan. Sed ac tincidunt lacus, nec fringilla quam. Curabitur non imperdiet erat. Nullam ac nisi purus. '),
+            children:<Widget>[
+              const Text.rich(
+                TextSpan(
+                  children: <TextSpan>[
+                    TextSpan(text: 'Praia do Pereque', style: TextStyle(fontWeight: FontWeight.bold))
+                  ]
+                ),
+              ),
+
+              Image.asset('img/praia_castelhanos.jpg',width: 900,height: 300,),
+
+              const Text.rich(
+                TextSpan(
+                  children: <TextSpan>[
+                    TextSpan(text:'Como chegar:', style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan semper augue, in bibendum libero lobortis nec. In ex lacus, consequat in purus id, euismod eleifend orci. Vestibulum in malesuada enim. Aliquam tincidunt ullamcorper accumsan. Sed ac tincidunt lacus, nec fringilla quam. Curabitur non imperdiet erat. Nullam ac nisi purus.'
+                ),
+              ),
 
               const Text('Curiosidades: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan semper augue, in bibendum libero lobortis nec. In ex lacus, consequat in purus id, euismod eleifend orci. Vestibulum in malesuada enim. Aliquam tincidunt ullamcorper accumsan. Sed ac tincidunt lacus, nec fringilla quam. Curabitur non imperdiet erat. Nullam ac nisi purus. '),
 
