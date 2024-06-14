@@ -27,15 +27,12 @@ class MainApp extends StatelessWidget {
         body: Center(
           child: Column(
             children:<Widget>[
-              const Text.rich(
-                TextSpan(
-                  children: <TextSpan>[
-                    TextSpan(text: 'Praia do Pereque', style: TextStyle(fontWeight: FontWeight.bold))
-                  ]
-                ),
-              ),
+              const Card(child:Padding(
+                padding: EdgeInsets.all(15.0),
+                child: Text('Praia do Pereque'),
+              )),
 
-              Image.asset('img/praia_castelhanos.jpg',width: 900,height: 300,),
+              Image.asset('img/praia_castelhanos.jpg',width: 300,height: 300,),
 
               const Text.rich(
                 TextSpan(
