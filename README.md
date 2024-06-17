@@ -17,7 +17,7 @@
 
 <h1>Descrição do Desenvolvimento </h1>
 
-<a href="https://github.com/JuS0l/App_IlhaBela.wiki.git">Link para a descrição do desenvolvimento com vídeos das páginas</a>
+<a href="[https://github.com/JuS0l/App_IlhaBela.wiki.git](https://github.com/JuS0l/App_IlhaBela/wiki/Descri%C3%A7%C3%A3o-do-Desenvolvimento)">Link para a descrição do desenvolvimento com vídeos das páginas</a>
 
 
 <h1>Referências</h1>
